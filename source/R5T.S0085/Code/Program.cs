@@ -7,7 +7,10 @@ namespace R5T.S0085
     {
         static void Main()
         {
-            Console.WriteLine("Hello World!");
+            //Demonstrations.Instance.List_VersionedDirectoriesForPack();
+            //Demonstrations.Instance.Get_VersionedDirectoryForDotnetMajorVersion();
+            //Demonstrations.Instance.Get_DotnetPackDirectoryPath_ForTargetFramework();
+            Demonstrations.Instance.Get_DocumentationFilePaths_ForDotnetPack();
         }
     }
 }
