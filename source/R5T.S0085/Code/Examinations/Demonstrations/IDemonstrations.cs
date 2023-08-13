@@ -19,7 +19,7 @@ namespace R5T.S0085
 
 
             /// Run.
-            var documentationXmlFilePaths = Instances.DotnetPackPathOperator.GetDocumentationXmlFilePaths(
+            var documentationXmlFilePaths = Instances.DotnetPackPathOperator.Get_DocumentationXmlFilePaths(
                 dotnetPackName,
                 targetFramework);
 
